@@ -1,2 +1,2 @@
-Utilizar los permisos en shell
-Aprender a utilizar los comandos chmod, sudo, su, chown, chgrp
+
+Aprender a utilizar los permisos en shell y los comandos chmod, sudo, su, chown, chgrp
