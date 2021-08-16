@@ -1,0 +1,3 @@
+host *
+	Identifyfile ~/.ssh/holberton
+	PasswordAuthentication no
