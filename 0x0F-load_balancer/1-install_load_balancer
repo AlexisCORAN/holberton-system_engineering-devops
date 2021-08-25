@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # Install and configure HAproxy on your lb-01 server.
 sudo add-apt-repository ppa:vbernat/haproxy-1.7
-sudo apt update
-sudo apt install -y haproxy
+sudo apt-get -y update
+sudo apt-get install -y haproxy
 sudo cp /etc/haproxy/haproxy.cfg /etc/haproxy/haproxy.cfg.original
 
 fname="frontend http_front"
