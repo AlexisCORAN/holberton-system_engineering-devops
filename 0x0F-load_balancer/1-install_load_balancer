@@ -21,3 +21,4 @@ sudo sed -i "$ a $frontend" /etc/haproxy/haproxy.cfg
 sudo sed -i "$ a $backend" /etc/haproxy/haproxy.cfg
 
 sudo service haproxy start
+sudo service haproxy reload
