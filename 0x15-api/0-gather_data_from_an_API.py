@@ -1,6 +1,10 @@
 #!/usr/bin/python3
+"""
+Script with Rest API
+"""
 import requests
 from sys import argv
+
 
 if __name__ == '__main__':
     try:
