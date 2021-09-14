@@ -26,7 +26,7 @@ if __name__ == '__main__':
     for task in response_final:
         if task.get('completed'):
             completed += 1
-            tasks.append(tasks)
+            tasks.append(task)
     
     print('Employee {} is done with tasks({}/{}):'
           .format(name, completed, total))
