@@ -16,7 +16,7 @@ if __name__ == '__main__':
     
     name = response_user.get('name')
     
-    reponse_final = requests.get(final_url).json()
+    response_final = requests.get(final_url).json()
     
     total = len(response_total)
     
