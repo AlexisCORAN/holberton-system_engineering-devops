@@ -18,7 +18,7 @@ if __name__ == '__main__':
     
     response_final = requests.get(final_url).json()
     
-    total = len(response_total)
+    total = len(response_final)
     
     completed = 0
     tasks = []
