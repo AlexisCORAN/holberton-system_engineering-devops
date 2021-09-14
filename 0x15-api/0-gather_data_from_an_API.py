@@ -3,12 +3,12 @@
 Script with Rest API
 """
 import requests
-from sys import argv
+import sys
 
 
 if __name__ == '__main__':
     try:
-        emp_id = int(argv[1])
+        emp_id = int(sys.argv[1])
     except ValueError:
         exit()
 
