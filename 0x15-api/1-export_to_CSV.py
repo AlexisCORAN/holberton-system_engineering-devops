@@ -19,7 +19,7 @@ if __name__ == '__main__':
 
     response_user = requests.get(user_url).json()
 
-    name = response_user.get('name')
+    username = response_user.get('username')
 
     response_final = requests.get(final_url).json()
 
@@ -29,4 +29,4 @@ if __name__ == '__main__':
         for elem in response_final:
             status = elem.get('completed')
             title = elem.get('title')
-            writer.writerow([emp_id, name, status, title])
+            writer.writerow([emp_id, username, status, title])
