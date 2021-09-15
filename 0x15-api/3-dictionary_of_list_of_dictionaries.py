@@ -24,6 +24,5 @@ if __name__ == '__main__':
                     'completed': task.get('completed')}
             users_tasks[user_id].append(task)
 
-
     with open('todo_all_employees.json', 'w', encoding='utf-8') as json_file:
         json.dump(users_tasks, json_file)
