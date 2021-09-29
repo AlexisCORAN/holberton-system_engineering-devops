@@ -17,11 +17,9 @@ def top_ten(subreddit):
                                                                  limit)
 
     user_agent = {"User-Agent": "Python"}
-
     response = requests.get(url, headers=user_agent, allow_redirects=False)
-
     if response.status_code >= 300:
-        return None
+        print("None")
     else:
         for elem in response.json().get("data").get("children"):
             print(elem.get("data").get("title"))
