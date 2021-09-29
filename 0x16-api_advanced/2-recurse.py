@@ -11,7 +11,8 @@ def recurse(subreddit, hot_list=[], after=""):
     param = {"after": after, "limit": "100"}
     user_agent = {"User-Agent": "Python"}
 
-    response = requests.get(url, headers=user_agent, params=param, allow_redirects=False)
+    response = requests.get(url, headers=user_agent, params=param,
+                            allow_redirects=False)
 
     if response.status_code >= 400:
         return None
@@ -25,5 +26,5 @@ def recurse(subreddit, hot_list=[], after=""):
 
     if after is not None:
         recurse(subreddit, hot_list, after)
-    
+
     return hot_list
