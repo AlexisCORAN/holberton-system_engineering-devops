@@ -1,3 +1,4 @@
+# Script Fix Wordpress
 exec { 'Fix-Wordpress':
   path => '/usr/bin',
   provider => shell,
