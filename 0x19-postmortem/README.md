@@ -3,7 +3,7 @@
 
 ## Issue Summary
 
-On 27 September at 14:00 UTC, 100% of the page was inactive for a total of 30 min, the service was restored at 14:30 pm UTC. Users experienced a response with a 500 status code (internal server error). When we did the review on the server where the page was hosted, we could find that the main cause of the interruption was a typographical error of a single letter in a .php file, it was written as a .phpp file.
+On 27 September at 14:00 UTC, 100% of the page was inactive for a total of 30 min, the service was restored at 14:30 pm UTC. Users experienced a response with a 500 status code (internal server error). When we did the review on the server where the page was hosted, we could find that the main cause of the interruption was a typographical error of a single letter in a `.php` file, it was written as a `.phpp` file.
 
 
 ## Timeline
@@ -16,7 +16,7 @@ On 27 September at 14:00 UTC, 100% of the page was inactive for a total of 30 mi
 
 - **14:17** : The website was curled to reveal a fatal error, a missing file `/var/www/html/wp-includes/class-wp-locale.phpp` required in `/var/www/html/wp-settings.php`. The nonexistent `.phpp` extension indicated a potential typographical error.
 
-- **14:20 : With the ls command the content of `/var/www/html/wp-includes/` was listed and the existence of the file `/ var/www/html/wp-settings.php` was confirmed.
+- **14:20** : With the ls command the content of `/var/www/html/wp-includes/` was listed and the existence of the file `/ var/www/html/wp-settings.php` was confirmed.
 
 - **14:22**: Fixed using `sed` command in php config file.
 
