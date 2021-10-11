@@ -5,7 +5,7 @@
 
 On 27 September at 14:00 UTC, 100% of the page was inactive for a total of 30 min, the service was restored at 14:30 pm UTC. Users experienced a response with a 500 status code (internal server error). When we did the review on the server where the page was hosted, we could find that the main cause of the interruption was a typographical error of a single letter in a `.php` file, it was written as a `.phpp` file.
 
-![500 Status code.(meme)](https://i.redd.it/vri4ra46xi531.jpg)
+<div align="center"> ![500 Status code.(meme)](https://i.redd.it/vri4ra46xi531.jpg) </div>
 
 
 ## Timeline
