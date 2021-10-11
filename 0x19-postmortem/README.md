@@ -5,12 +5,13 @@
 
 On 27 September at 14:00 UTC, 100% of the page was inactive for a total of 30 min, the service was restored at 14:30 pm UTC. Users experienced a response with a 500 status code (internal server error). When we did the review on the server where the page was hosted, we could find that the main cause of the interruption was a typographical error of a single letter in a `.php` file, it was written as a `.phpp` file.
 
-<div align="center"> ![500 Status code.(meme)](https://i.redd.it/vri4ra46xi531.jpg) </div>
+<div align="center"> <img src="images/meme.jpg" alt="500 status code"> </div>
 
 
 ## Timeline
 
 - **14:00** : After deploying wordpress, and a response was made to the server to check the correct operation where it was found that the response was 500 status code.
+
 
 - **14:05** : Active processes were verified using `ps auxf`.
 
