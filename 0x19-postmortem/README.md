@@ -12,6 +12,8 @@ On 27 September at 14:00 UTC, 100% of the page was inactive for a total of 30 mi
 
 - **14:00** : After deploying wordpress, and a response was made to the server to check the correct operation where it was found that the response was 500 status code.
 
+<div align="center">  <img src="images/Screenshot_261.png" alt="curl 500"> </div>
+
 
 - **14:05** : Active processes were verified using `ps auxf`.
 
@@ -29,6 +31,7 @@ On 27 September at 14:00 UTC, 100% of the page was inactive for a total of 30 mi
 
 - **14:30** : The website worked correctly and was ready.
 
+<div align="center">  <img src="images/Screenshot_262.png" alt="curl 200"> </div>
 
 ## Root cause and resolution:
 
